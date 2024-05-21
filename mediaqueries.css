@@ -1,0 +1,68 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 10rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+    .google-map {
+        margin-left: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+      height: 150px;
+    }
+    .text-container {
+        margin-top: 30rem;
+        margin-left: -7.9rem;
+    }
+    .title {
+        text-align: center;
+    }
+    .google-map iframe {
+        margin-right: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .btn {
+        width: 110px;
+        height: 40px;
+        margin-top: 27.5rem;
+        margin-left: 1rem;
+    }
+    .btn-container {
+        margin-right: 6rem;
+    }
+    #socials-container {
+        margin-right: 5rem;
+    }
+    .icon {
+        width: 20px;
+        height: 25px;
+    }
+    #header {
+        background-image: url(images/byoung\ nail\ spa\ mobile.jpg);
+        height: 667px;
+        width: 455px;
+    }
+    .section_pic-container {
+        height: 400px;
+    }
+    .text-container {
+        margin-top: 30rem;
+        margin-left: -7.9rem;
+    }
+  }
+
